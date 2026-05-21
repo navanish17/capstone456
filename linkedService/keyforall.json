@@ -1,0 +1,10 @@
+{
+	"name": "keyforall",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://capstonekey456.vault.azure.net/"
+		}
+	}
+}
