@@ -1,0 +1,18 @@
+{
+	"name": "adlslake",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://capstoneadls456.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "keyforall",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adlspass"
+			}
+		}
+	}
+}
