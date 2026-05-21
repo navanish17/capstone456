@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "bank_customer_master_seed"
+			"table": "customer_master"
 		}
 	}
 }
