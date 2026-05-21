@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_j6o",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "bank_customer_master_seed"
+		}
+	}
+}
