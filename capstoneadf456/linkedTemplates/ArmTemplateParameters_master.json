@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "capstoneadf456"
+		},
+		"adlslake_properties_typeProperties_url": {
+			"value": "https://capstoneadls456.dfs.core.windows.net"
+		},
+		"keyforall_properties_typeProperties_baseUrl": {
+			"value": "https://capstonekey456.vault.azure.net/"
+		},
+		"sqldb_properties_typeProperties_server": {
+			"value": "capstoneserver234.database.windows.net"
+		},
+		"sqldb_properties_typeProperties_database": {
+			"value": "capstonedb"
+		},
+		"sqldb_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
