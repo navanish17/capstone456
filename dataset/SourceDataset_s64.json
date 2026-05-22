@@ -1,0 +1,46 @@
+{
+	"name": "SourceDataset_s64",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlslake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-tid-3599116836527845999-187eb553-20d4-406a-9d31-5e37aacb2b2e-0-1-c000.csv",
+				"folderPath": "final_customer_summary_csv",
+				"fileSystem": "gold"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "customer_id",
+				"type": "String"
+			},
+			{
+				"name": "customer_name",
+				"type": "String"
+			},
+			{
+				"name": "risk_category",
+				"type": "String"
+			},
+			{
+				"name": "total_transactions",
+				"type": "String"
+			},
+			{
+				"name": "total_amount",
+				"type": "String"
+			}
+		]
+	}
+}
