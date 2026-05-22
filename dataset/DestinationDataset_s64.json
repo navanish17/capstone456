@@ -1,0 +1,47 @@
+{
+	"name": "DestinationDataset_s64",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "customer_id",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "customer_name",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "risk_category",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "total_transactions",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "total_amount",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "gold_customer_risk_summary"
+		}
+	}
+}
